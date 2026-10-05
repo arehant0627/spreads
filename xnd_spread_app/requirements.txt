@@ -1,0 +1,9 @@
+streamlit>=1.50
+altair>=5
+thetadata>=1.0.9,<2    # needs Python 3.12 or newer
+python-dotenv          # thetadata imports it but does not list it as a dependency
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11
+yfinance>=0.2.40
+requests
